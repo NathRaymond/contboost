@@ -1,0 +1,46 @@
+.search {
+
+    a {
+        width: 35px;
+
+        svg {
+            fill: #818181;
+            stroke: $white;
+            stroke-width: 0.5;
+
+            [theme-mode="dark"] & {
+                fill: $white;
+                stroke: $secondary-dark;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        min-width: 250px;
+        box-shadow: $card-box-shadow;
+        border-radius: 0;
+
+        .search-wrap {
+            background: $white;
+            left: 0;
+            top: 86px;
+            padding: 15px;
+            border-radius: 0;
+            margin: 0;
+
+            button {
+                position: absolute;
+                right: 15px;
+                border-radius: 0 4px 4px 0;
+            }
+
+            input {
+                border-radius: 4px 0 0 4px;
+                padding-right: 50px;
+            }
+        }
+    }
+}

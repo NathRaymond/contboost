@@ -1,0 +1,39 @@
+.theme-mode-btn-wrap {
+    .theme-mode {
+        border-radius: 40px;
+        background: var(--#{$prefix}primary-dark);
+        z-index: 9;
+        text-align: center;
+        position: fixed;
+        bottom: 15px;
+        left: 15px;
+
+        i {
+            padding: 15px;
+        }
+    }
+}
+
+.theme-mode {
+    .btn-mode {
+        text-decoration: none;
+    }
+
+    &.theme-mode-dark {
+        .btn-mode {
+            &:after {
+                content: "\f14a";
+                color: var(--#{$prefix}icon-color);
+            }
+        }
+    }
+
+    &.theme-mode-light {
+        .btn-mode {
+            &:after {
+                content: "\f164";
+                color: #ffc800;
+            }
+        }
+    }
+}

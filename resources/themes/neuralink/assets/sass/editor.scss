@@ -1,0 +1,10 @@
+@import '@toast-ui/editor/dist/toastui-editor.css'; // Editor's Style
+@import '@toast-ui/editor/dist/theme/toastui-editor-dark.css'; // Editor's Style
+
+.toastui-editor-defaultUI {
+    border: 0 !important;
+}
+
+.toastui-editor-mode-switch {
+    display: none !important;
+}

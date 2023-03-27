@@ -1,0 +1,20 @@
+.widget-wrapper {
+    h4 {
+        font-size: 1rem;
+    }
+
+    ul {
+        li {
+            padding: .25rem 0;
+
+            a {
+                display: block;
+            }
+        }
+    }
+
+    // a {
+    //     text-decoration: none;
+    //     color: var(--#{$prefix}body-color);
+    // }
+}

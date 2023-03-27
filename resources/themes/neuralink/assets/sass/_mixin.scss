@@ -1,0 +1,49 @@
+// section {
+//     @include icon-background;
+// }
+
+$icon-background: #F0DDFF,
+#EAFFF6,
+#EEEFF6,
+#F5E9EC,
+#FFF0DA,
+#FEE3FB,
+#FFF2CC,
+#FFE1ED,
+#E3F4FE,
+#d1f6fe;
+
+@mixin icon-background {
+    @for $i from 1 through length($icon-background) {
+        &:nth-child(#{length($icon-background)}n+#{$i}) {
+            .card {
+                .icon {
+                    background: (nth($icon-background, $i));
+                }
+            }
+        }
+    }
+}
+
+
+
+$icon-colors: #9719FE,
+#1FBC71,
+#132187,
+#F2464C,
+#FF9900,
+#EC3BBA,
+#C79F24,
+#FF106C,
+#0084FF,
+#3abfdd;
+
+@mixin icon-colors {
+    @for $i from 1 through length($icon-colors) {
+        &:nth-child(#{length($icon-colors)}n+#{$i}) {
+            .icon {
+                color: (nth($icon-colors, $i));
+            }
+        }
+    }
+}

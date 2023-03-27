@@ -1,0 +1,33 @@
+.cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483645;
+    box-sizing: border-box;
+    max-width: 400px;
+    background-color: var(--#{$prefix}gray-100);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.cookie-consent-banner__inner {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.cookie-consent-banner__copy {
+    margin-bottom: 1rem;
+}
+
+.cookie-consent-banner__header {
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.cookie-consent-banner__description {
+    font-weight: normal;
+    line-height: 1.5;
+}

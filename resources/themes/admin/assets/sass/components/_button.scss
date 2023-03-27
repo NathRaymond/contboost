@@ -1,0 +1,10 @@
+.btn-primary {
+    color: var(--#{$prefix}white);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+        color: var(--#{$prefix}white);
+    }
+}

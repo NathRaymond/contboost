@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@coreui/chartjs": "^3.0.0",
+        "@coreui/coreui": "^4.2.2",
+        "@coreui/icons": "^3.0.0",
+        "@coreui/utils": "^2.0.0",
+        "@coreui/vendors-injector": "^1.1.4",
+        "@creativebulma/bulma-tagsinput": "^1.0.3",
+        "@morteza-jamali/lineicons": "^2.0.1",
+        "@popperjs/core": "^2.11.6",
+        "@toast-ui/editor": "^3.2.2",
+        "@toast-ui/editor-plugin-uml": "^3.0.1",
+        "@yaireo/tagify": "^4.17.1",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.2",
+        "bootstrap5-tags": "^1.4.42",
+        "chart.js": "^4.2.1",
+        "js-cookie": "^3.0.1",
+        "laravel-vite-plugin": "^0.7.0",
+        "lodash": "^4.17.19",
+        "perfect-scrollbar": "^1.5.5",
+        "postcss": "^8.4.6",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "simplebar": "^6.2.1",
+        "sortablejs": "^1.15.0",
+        "sweetalert2": "^11.4.8",
+        "vite": "^4.0.0",
+        "vite-plugin-static-copy": "^0.13.0"
+    },
+    "dependencies": {
+        "clipboard": "^2.0.11"
+    }
+}

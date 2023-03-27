@@ -1,0 +1,22 @@
+.hero-title {
+    margin-bottom: 20px;
+
+    p {
+        color: $text-light;
+    }
+
+    h1,
+    h2 {
+        font-size: 1rem;
+
+        &::after {
+            content: "";
+            display: block;
+            position: relative;
+            height: 2px;
+            width: 50px;
+            background: var(--#{$prefix}primary);
+            margin-top: 15px;
+        }
+    }
+}

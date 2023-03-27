@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'mixin';
+@import 'global';
+@import 'amazing-neo.scss';
+
+@import 'components/search';
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'components/heroTitle';
+@import 'components/breadcrumb';
+@import 'components/pagination';
+
+@import 'components/form';
+// @import 'components/tooltip';
+@import 'components/theme-mode';
+@import 'components/navTabs';
+
+@import 'components/footer';
+@import 'components/listStyle';
+@import 'components/pricing';
+@import 'components/table';
+@import 'components/tabs';
+@import 'components/header';
+@import 'components/widgets';
+@import 'components/blog';
+@import 'components/sidebar';
+@import 'components/social';
+@import 'components/checkbox-radio-button';
+@import 'components/cookies-consent';
+
+
+@import 'partials/dashboard';
+@import 'partials/index';
+@import 'partials/profile';
+@import 'partials/public-profile';

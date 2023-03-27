@@ -1,0 +1,33 @@
+// icon button
+.btn {
+    &.btn-icon {
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        padding: 0;
+
+        i {
+            font-size: inherit;
+        }
+    }
+
+}
+.btn-primary {
+    --#{$prefix}btn-color : var(--#{$prefix}white);
+}
+
+.btn-danger {
+    --#{$prefix}btn-color : var(--#{$prefix}white);
+}
+
+.btn-warning {
+    --#{$prefix}btn-color : var(--#{$prefix}white);
+}
+
+.btn-success {
+    --#{$prefix}btn-color : var(--#{$prefix}white);
+}
+
+.btn-blue {
+    --#{$prefix}btn-color : var(--#{$prefix}white);
+}

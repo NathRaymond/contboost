@@ -1,0 +1,745 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>amazing-neo</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/amazing-neo.css" />
+        <style>
+            body {
+                background: #f0f1f3;
+            }
+            .alert + .list-unstyled {
+                margin-top: 30px;
+            }           
+           li .an {
+                color: #183153;
+                font-size: 14px;
+                margin-bottom: 5px;
+                transition: all 0.2s ease-in-out;
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
+                -ms-transition: all 0.2s ease-in-out;
+                z-index: -1;
+            } 
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+            li.icon {
+                cursor: pointer;
+                min-height: 120px;
+                margin-bottom: 20px;
+                padding: 24px 0;
+                background: #fff;
+                margin: 1%;
+                border-radius: 4px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(var(--icon-listing-roomy-size), 1fr));
+                grid-gap: var(--icon-listing-roomy-gap-y) var(--icon-listing-roomy-gap-x);
+                grid-auto-flow: row dense;
+                justify-items: center;
+                margin-right: 3px;
+                margin-bottom: 10px;
+                width: 18.5% !important;
+                float: left;
+            }
+            li.icon:last-child {
+            margin-bottom: 150px;
+            }
+
+            li span,
+            li small {
+                display: block;
+                line-height: normal;
+                text-align: center;
+            }
+        
+            li span {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            li:hover .an {
+                cursor: default;
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+            }
+            .an {
+                vertical-align: inherit;
+            }
+            .an + span {
+                margin-left: 5px;
+            }
+            .fixed-bottom {
+                background: #ffffffc2 none repeat scroll 0 0;
+                bottom: 0;
+                padding: 10px 0;
+                position: fixed;
+                width: 100%;
+                text-align: center;
+            } 
+            @media (min-width: 768px) {
+                .col-sm-2 {
+                    width: auto !important;
+                }
+            }
+            .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h2>
+                    amazing-neo
+                    <small>version 2.0.0 custom</small>
+                </h2>
+            </div>
+            <div class="alert alert-info">
+                <strong><i class="mi mi-favourite"></i><span>Your Icon Font</span></strong> - 
+                <small>The following glyphs are available in this font:</small>
+            </div>
+
+            <ul id="icons" class="list-unstyled clearfix">
+                
+                    <li class="icon col-sm-2" data-name="address-card">
+                        <span><i class="an an-address-card"></i></span>
+                        <small><!-- an- -->address-card</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="airplane-alt">
+                        <span><i class="an an-airplane-alt"></i></span>
+                        <small><!-- an- -->airplane-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="amazing-neo">
+                        <span><i class="an an-amazing-neo"></i></span>
+                        <small><!-- an- -->amazing-neo</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="angle-down">
+                        <span><i class="an an-angle-down"></i></span>
+                        <small><!-- an- -->angle-down</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="angle-left">
+                        <span><i class="an an-angle-left"></i></span>
+                        <small><!-- an- -->angle-left</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="angle-right">
+                        <span><i class="an an-angle-right"></i></span>
+                        <small><!-- an- -->angle-right</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="angle-up">
+                        <span><i class="an an-angle-up"></i></span>
+                        <small><!-- an- -->angle-up</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="arrow-alt-right">
+                        <span><i class="an an-arrow-alt-right"></i></span>
+                        <small><!-- an- -->arrow-alt-right</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="arrow-click">
+                        <span><i class="an an-arrow-click"></i></span>
+                        <small><!-- an- -->arrow-click</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bars-left">
+                        <span><i class="an an-bars-left"></i></span>
+                        <small><!-- an- -->bars-left</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bars-right">
+                        <span><i class="an an-bars-right"></i></span>
+                        <small><!-- an- -->bars-right</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bars">
+                        <span><i class="an an-bars"></i></span>
+                        <small><!-- an- -->bars</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bell-alt">
+                        <span><i class="an an-bell-alt"></i></span>
+                        <small><!-- an- -->bell-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bell">
+                        <span><i class="an an-bell"></i></span>
+                        <small><!-- an- -->bell</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="book">
+                        <span><i class="an an-book"></i></span>
+                        <small><!-- an- -->book</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="books">
+                        <span><i class="an an-books"></i></span>
+                        <small><!-- an- -->books</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="box-alt">
+                        <span><i class="an an-box-alt"></i></span>
+                        <small><!-- an- -->box-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="box-check">
+                        <span><i class="an an-box-check"></i></span>
+                        <small><!-- an- -->box-check</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="box-up-fragile">
+                        <span><i class="an an-box-up-fragile"></i></span>
+                        <small><!-- an- -->box-up-fragile</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="boxes">
+                        <span><i class="an an-boxes"></i></span>
+                        <small><!-- an- -->boxes</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="brain">
+                        <span><i class="an an-brain"></i></span>
+                        <small><!-- an- -->brain</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="briefcase">
+                        <span><i class="an an-briefcase"></i></span>
+                        <small><!-- an- -->briefcase</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="browser">
+                        <span><i class="an an-browser"></i></span>
+                        <small><!-- an- -->browser</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="bullet">
+                        <span><i class="an an-bullet"></i></span>
+                        <small><!-- an- -->bullet</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="button">
+                        <span><i class="an an-button"></i></span>
+                        <small><!-- an- -->button</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="calculator-sign">
+                        <span><i class="an an-calculator-sign"></i></span>
+                        <small><!-- an- -->calculator-sign</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="check-double">
+                        <span><i class="an an-check-double"></i></span>
+                        <small><!-- an- -->check-double</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="check">
+                        <span><i class="an an-check"></i></span>
+                        <small><!-- an- -->check</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="clock">
+                        <span><i class="an an-clock"></i></span>
+                        <small><!-- an- -->clock</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="code-alt">
+                        <span><i class="an an-code-alt"></i></span>
+                        <small><!-- an- -->code-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="code">
+                        <span><i class="an an-code"></i></span>
+                        <small><!-- an- -->code</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="cog-alt">
+                        <span><i class="an an-cog-alt"></i></span>
+                        <small><!-- an- -->cog-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="comment-alt-exclamation">
+                        <span><i class="an an-comment-alt-exclamation"></i></span>
+                        <small><!-- an- -->comment-alt-exclamation</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="comment-alt-lines">
+                        <span><i class="an an-comment-alt-lines"></i></span>
+                        <small><!-- an- -->comment-alt-lines</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="credit-card-alt">
+                        <span><i class="an an-credit-card-alt"></i></span>
+                        <small><!-- an- -->credit-card-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="crown">
+                        <span><i class="an an-crown"></i></span>
+                        <small><!-- an- -->crown</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="cursor-arrow">
+                        <span><i class="an an-cursor-arrow"></i></span>
+                        <small><!-- an- -->cursor-arrow</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="download">
+                        <span><i class="an an-download"></i></span>
+                        <small><!-- an- -->download</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="edit">
+                        <span><i class="an an-edit"></i></span>
+                        <small><!-- an- -->edit</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="ellipsis-v">
+                        <span><i class="an an-ellipsis-v"></i></span>
+                        <small><!-- an- -->ellipsis-v</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="envelope-alt">
+                        <span><i class="an an-envelope-alt"></i></span>
+                        <small><!-- an- -->envelope-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="envelope-open-text">
+                        <span><i class="an an-envelope-open-text"></i></span>
+                        <small><!-- an- -->envelope-open-text</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="envelope-open">
+                        <span><i class="an an-envelope-open"></i></span>
+                        <small><!-- an- -->envelope-open</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="exclamation-alt">
+                        <span><i class="an an-exclamation-alt"></i></span>
+                        <small><!-- an- -->exclamation-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="exclamation-circle">
+                        <span><i class="an an-exclamation-circle"></i></span>
+                        <small><!-- an- -->exclamation-circle</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="exclamation-triangle">
+                        <span><i class="an an-exclamation-triangle"></i></span>
+                        <small><!-- an- -->exclamation-triangle</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="external-link-alt">
+                        <span><i class="an an-external-link-alt"></i></span>
+                        <small><!-- an- -->external-link-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="eye">
+                        <span><i class="an an-eye"></i></span>
+                        <small><!-- an- -->eye</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="facebook">
+                        <span><i class="an an-facebook"></i></span>
+                        <small><!-- an- -->facebook</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="feather">
+                        <span><i class="an an-feather"></i></span>
+                        <small><!-- an- -->feather</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="file-alt">
+                        <span><i class="an an-file-alt"></i></span>
+                        <small><!-- an- -->file-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="file-check">
+                        <span><i class="an an-file-check"></i></span>
+                        <small><!-- an- -->file-check</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="file-edit">
+                        <span><i class="an an-file-edit"></i></span>
+                        <small><!-- an- -->file-edit</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="file-o">
+                        <span><i class="an an-file-o"></i></span>
+                        <small><!-- an- -->file-o</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="files-alt">
+                        <span><i class="an an-files-alt"></i></span>
+                        <small><!-- an- -->files-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="flag">
+                        <span><i class="an an-flag"></i></span>
+                        <small><!-- an- -->flag</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="folder-alt">
+                        <span><i class="an an-folder-alt"></i></span>
+                        <small><!-- an- -->folder-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="folder">
+                        <span><i class="an an-folder"></i></span>
+                        <small><!-- an- -->folder</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="google">
+                        <span><i class="an an-google"></i></span>
+                        <small><!-- an- -->google</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="hashtag">
+                        <span><i class="an an-hashtag"></i></span>
+                        <small><!-- an- -->hashtag</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="hourglass">
+                        <span><i class="an an-hourglass"></i></span>
+                        <small><!-- an- -->hourglass</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="lightbulb-on-alt">
+                        <span><i class="an an-lightbulb-on-alt"></i></span>
+                        <small><!-- an- -->lightbulb-on-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="link">
+                        <span><i class="an an-link"></i></span>
+                        <small><!-- an- -->link</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="linkedin-in">
+                        <span><i class="an an-linkedin-in"></i></span>
+                        <small><!-- an- -->linkedin-in</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="list">
+                        <span><i class="an an-list"></i></span>
+                        <small><!-- an- -->list</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="location-arrow">
+                        <span><i class="an an-location-arrow"></i></span>
+                        <small><!-- an- -->location-arrow</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="lock">
+                        <span><i class="an an-lock"></i></span>
+                        <small><!-- an- -->lock</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="logout-alt">
+                        <span><i class="an an-logout-alt"></i></span>
+                        <small><!-- an- -->logout-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="long-arrow-right-alt">
+                        <span><i class="an an-long-arrow-right-alt"></i></span>
+                        <small><!-- an- -->long-arrow-right-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="long-arrow-right">
+                        <span><i class="an an-long-arrow-right"></i></span>
+                        <small><!-- an- -->long-arrow-right</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="magic">
+                        <span><i class="an an-magic"></i></span>
+                        <small><!-- an- -->magic</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="mastercard-card">
+                        <span><i class="an an-mastercard-card"></i></span>
+                        <small><!-- an- -->mastercard-card</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="microscope">
+                        <span><i class="an an-microscope"></i></span>
+                        <small><!-- an- -->microscope</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="moon">
+                        <span><i class="an an-moon"></i></span>
+                        <small><!-- an- -->moon</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="music">
+                        <span><i class="an an-music"></i></span>
+                        <small><!-- an- -->music</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="network">
+                        <span><i class="an an-network"></i></span>
+                        <small><!-- an- -->network</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="paypal-card">
+                        <span><i class="an an-paypal-card"></i></span>
+                        <small><!-- an- -->paypal-card</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="play-circle">
+                        <span><i class="an an-play-circle"></i></span>
+                        <small><!-- an- -->play-circle</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="play">
+                        <span><i class="an an-play"></i></span>
+                        <small><!-- an- -->play</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="plus">
+                        <span><i class="an an-plus"></i></span>
+                        <small><!-- an- -->plus</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="poll-h">
+                        <span><i class="an an-poll-h"></i></span>
+                        <small><!-- an- -->poll-h</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="puzzle-piece">
+                        <span><i class="an an-puzzle-piece"></i></span>
+                        <small><!-- an- -->puzzle-piece</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="quora">
+                        <span><i class="an an-quora"></i></span>
+                        <small><!-- an- -->quora</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="reply-all">
+                        <span><i class="an an-reply-all"></i></span>
+                        <small><!-- an- -->reply-all</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="rocket-art">
+                        <span><i class="an an-rocket-art"></i></span>
+                        <small><!-- an- -->rocket-art</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="save">
+                        <span><i class="an an-save"></i></span>
+                        <small><!-- an- -->save</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="search-engine">
+                        <span><i class="an an-search-engine"></i></span>
+                        <small><!-- an- -->search-engine</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="search-field-arrow">
+                        <span><i class="an an-search-field-arrow"></i></span>
+                        <small><!-- an- -->search-field-arrow</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="search-field">
+                        <span><i class="an an-search-field"></i></span>
+                        <small><!-- an- -->search-field</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="search">
+                        <span><i class="an an-search"></i></span>
+                        <small><!-- an- -->search</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="section-2-7">
+                        <span><i class="an an-section-2-7"></i></span>
+                        <small><!-- an- -->section-2-7</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sensor">
+                        <span><i class="an an-sensor"></i></span>
+                        <small><!-- an- -->sensor</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="share-alt">
+                        <span><i class="an an-share-alt"></i></span>
+                        <small><!-- an- -->share-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sitemap">
+                        <span><i class="an an-sitemap"></i></span>
+                        <small><!-- an- -->sitemap</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sort-down">
+                        <span><i class="an an-sort-down"></i></span>
+                        <small><!-- an- -->sort-down</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sort-up">
+                        <span><i class="an an-sort-up"></i></span>
+                        <small><!-- an- -->sort-up</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sort">
+                        <span><i class="an an-sort"></i></span>
+                        <small><!-- an- -->sort</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="star-alt">
+                        <span><i class="an an-star-alt"></i></span>
+                        <small><!-- an- -->star-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="stripe-card">
+                        <span><i class="an an-stripe-card"></i></span>
+                        <small><!-- an- -->stripe-card</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="sun">
+                        <span><i class="an an-sun"></i></span>
+                        <small><!-- an- -->sun</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="tag">
+                        <span><i class="an an-tag"></i></span>
+                        <small><!-- an- -->tag</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="tags">
+                        <span><i class="an an-tags"></i></span>
+                        <small><!-- an- -->tags</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="textbox">
+                        <span><i class="an an-textbox"></i></span>
+                        <small><!-- an- -->textbox</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="thumbs-up-alt">
+                        <span><i class="an an-thumbs-up-alt"></i></span>
+                        <small><!-- an- -->thumbs-up-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="thumbs-up">
+                        <span><i class="an an-thumbs-up"></i></span>
+                        <small><!-- an- -->thumbs-up</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="timeline-v">
+                        <span><i class="an an-timeline-v"></i></span>
+                        <small><!-- an- -->timeline-v</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="times">
+                        <span><i class="an an-times"></i></span>
+                        <small><!-- an- -->times</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="tools">
+                        <span><i class="an an-tools"></i></span>
+                        <small><!-- an- -->tools</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="translate">
+                        <span><i class="an an-translate"></i></span>
+                        <small><!-- an- -->translate</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="trash">
+                        <span><i class="an an-trash"></i></span>
+                        <small><!-- an- -->trash</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="tv">
+                        <span><i class="an an-tv"></i></span>
+                        <small><!-- an- -->tv</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="twitter">
+                        <span><i class="an an-twitter"></i></span>
+                        <small><!-- an- -->twitter</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="usd-sign">
+                        <span><i class="an an-usd-sign"></i></span>
+                        <small><!-- an- -->usd-sign</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="user-tie">
+                        <span><i class="an an-user-tie"></i></span>
+                        <small><!-- an- -->user-tie</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="user">
+                        <span><i class="an an-user"></i></span>
+                        <small><!-- an- -->user</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="video">
+                        <span><i class="an an-video"></i></span>
+                        <small><!-- an- -->video</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="visa-card">
+                        <span><i class="an an-visa-card"></i></span>
+                        <small><!-- an- -->visa-card</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="write-alt">
+                        <span><i class="an an-write-alt"></i></span>
+                        <small><!-- an- -->write-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="write">
+                        <span><i class="an an-write"></i></span>
+                        <small><!-- an- -->write</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="youtube-alt">
+                        <span><i class="an an-youtube-alt"></i></span>
+                        <small><!-- an- -->youtube-alt</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="youtube-circle">
+                        <span><i class="an an-youtube-circle"></i></span>
+                        <small><!-- an- -->youtube-circle</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="youtube-square">
+                        <span><i class="an an-youtube-square"></i></span>
+                        <small><!-- an- -->youtube-square</small>
+                    </li>
+                
+                    <li class="icon col-sm-2" data-name="youtube">
+                        <span><i class="an an-youtube"></i></span>
+                        <small><!-- an- -->youtube</small>
+                    </li>
+                
+            </ul>
+
+            <div class="fixed-bottom">
+                <h3>Usage</h3>
+            
+                <pre><code class="text-danger">&lt;i class=&quot;an an-<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+            
+                
+            </div>
+        </div>
+
+        <script>
+            (function() {
+                document.getElementById('icons').onclick = function(e) {
+                    e = e || window.event;
+                    var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
+                    document.getElementById('name').innerHTML = name;
+                    
+                }
+            })();
+        </script>
+    </body>
+</html>

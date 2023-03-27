@@ -1,0 +1,157 @@
+SEO Optimized GMB
+----
+Get 15 SEO optimized Google Business Updates / Posts for your Google Business Profile (GMB). Just type in the business name, type, and target keywords if you have any. Posts are optimized for local SEO!
+----
+Your task is to help me optimize a Google Business Profile for the following business in [language]. Please pretend you are a local SEO expert. I am going to ask you for a few different things, and you must put them all in a nicely organized table so it looks like a grid. The first request is to give me a list of the best categories that Google supports as Google Business categories this type of business should list itself as. The next request is to give me a comma separated sentence of the 10 best search keywords this business should try to rank for to get local customers. You must capitalize the first letter of each word in this sentence. Title this section \"The Best Target Keywords for CLIENT\". For my next request, write me a short business description that is SEO optimized for this business. This should be between 150 and 200 characters. Then, for my next request please write me a longer business called \"Long Business Description\" that is SEO optimized for this business. This longer business description should be about 2.5x longer than the short one. Both descriptions should end with a call to action and be full of the local SEO keywords you listed out in my earlier request. Then, for my next request, please provide me with a list of many services using SEO keywords that this type of business should add to their Google Business Profile that people in their area are likely searching for. This list should be in the form of a comma separated sentence and the first letter of every single word in this sentence should be capitalized. There should be at least 20 services in this comma separated sentence. The business name to help me with is: [business_name] located in [business_location] and here is the brife intro of business "[business_intro]"\n\nPlease write in [tone] tone, [style] writing style.
+______________
+Keyword Strategy
+----
+Create a keyword strategy and SEO content plan for any keyword.
+----
+I want you to respond only in language [language]. I want you to act as a market research expert that speaks and writes fluent [language]. Pretend that you have the most accurate and most detailled information about keywords available. Pretend that you are able to develop a full SEO content plan in fluent [language]. I will give you the target keyword [keyword]. From this keyword create a markdown table with a keyword list for an SEO content strategy plan on the topic [keyword]. Cluster the keywords according to the top 10 super categories and name the super category in the first column called keyword cluster. Add in another column with 7 subcategories for each keyword cluster or specific long-tail keywords for each of the clusters. List in another column the human searcher intent for the keyword. Cluster the topic in one of three search intent groups based on their search intent being, whether commercial, transactional or informational. Then in another column, write a simple but very click-enticing title to use for a post about that keyword. Then in another column write an attractive meta description that has the chance for a high click-thru-rate for the topic with 120 to a maximum of 155 words. The meta description shall be value based, so mention value of the article and have a simple call to action to cause the searcher to click.  Do NOT under any circumstance use too generic keyword like `introduction`  or `conclusion` or `tl:dr`. Focus on the most specific keywords only. Do not use single quotes, double quotes or any other enclosing characters in any of the columns you fill in. Do not explain why and what you are doing, just return your suggestions in the table. The markdown table shall be in [language] language and have the following columns: keyword cluster, keyword, search intent, title, meta description. Here is the keyword to start again: [keyword]
+
+______________
+Rewrite Article
+----
+Boost your online presence and attract more customers with [target Language]
+----
+I want you to act as a [language] Google Quality Rater trained in auditing content for quality, relevance, truthfulness and accuracy. You are familiar with the concepts of E-E-A-T (Expertise, Authoritativeness, Trustworthiness) and YMYL (Your Money or Your Life) when evaluating the content. Create a Page Quality (PQ) rating. Be very strict with your assessment. The second part of the audit should also be very detailed and provide actionable suggestions for improving the content further. Give tips on how to match search intent and user expectations better. Give tips on what the content is missing. Create a very detailed content audit. At the end of your analysis, suggest a 50–60 character h1 and title tag. Don't repeat the prompt. Don't remind me of previous instructions. Don't apologize, Don't self-reference. Don't make any assumptions. Here is the page URL: \n\n [page_url] \n\n and Here is the page content: [page_content]
+______________
+Enticing Product Description
+----
+Creating a reac and meaningful product description for your e-commerce product and find the best H1's and Meta Information.
+----
+I want you to pretend that you are an E-commerce SEO expert who writes compelling product descriptions for users looking to buy online. I am going to provide the title of one e-commerce product and I want you to come up with a minimum of [variant] distinct content sections for the product description, each section about a unique subset of keywords relating to the product I provide you. Make sure that each of the unique content sections are labeled with an informative and eye-catching subheading describing the main focus of the content section. The main point of these commands is for you to developing a new keyword-rich, informative, and captivating product summary/description that is less than 1000 words. The purpose of product description is marketing the products to users looking to buy. Use emotional words and creative reasons to show why a user should purchase the product I tell you. After you generate the new product summary, please generate a bulleted list of 5 possible H1 headings for this product page, and make each H1 less than 7 words each. Please also include bulleted list of broad match keywords that were used to accomplish writing the product summary. Write a persuasive and professional sounding Meta Title and Description that integrates similar language present in the new product summary text. Make sure to include a numerical aspect in the Meta Title. Do not echo my prompt. Do not remind me what I asked you for. Do not apologize. Do not self-reference. Write all output in [language]. Please use the following products: \n\n[product_name]
+______________
+SEO Optimized Google Business Posts
+----
+get SEO optimized Google Business Updates/Posts for your GMB Profile.
+----
+Your task is to help me create 15 local SEO optimized Google Business Profile posts for the following business written in the first person in [language]. Every post you give me needs to be at least seven sentences long and use at least 5 important local SEO keywords for this type of business. They should also all end with a call to action. The updates should not mention discounts or new products. These updates should all be very different from each other, talking about different things related to this type of business. Everything I said above is important and must be followed. Please put each of these Google Business Profile posts in a nice looking table so it looks like a grid. There should only be two columns in the grid. One column should be the post number. The second column should be the post you came up with.\n\nThe business to help me with is below. Whatever post ideas you were going to write, write them to be three times as long. These posts ideas should be ready to post without me having to change anything first. [business] in [country]
+______________
+SEO Silo Structure
+----
+Create a SILO structure for a website using a keyword
+----
+Create a detailed SILO structure for an website using the keyword: [keyword]. The sections and categories should be organized in a hierarchical structure, with the Home page at the top and the more specific pages at the bottom. Use the knowledge of how to make the best structure in terms of linking and SEO to get to the top positions in Google. All output should be in [language].
+______________
+YouTube Tag Generator
+----
+Create YouTube Tag about any topic.
+----
+Create 30 YouTube Tags Targeting an LSI Keyword with some search volume for the following Topic: [title]. No hashtags, separate keywords by commas. Only capitalize proper nouns in [language] language.
+______________
+Create SEO Plan
+----
+Generate 6 months plan for SEO. Ideal to add this at the end of your strategy presso.
+----
+For this query, you must think and act like a Senior SEO Strategist for a company, who manages a large team of seo specialist, that speaks and writes fluent [language]. I want you to pretend that you create seo strategies that are competitive with the top websites in this space, and always produces very good results especially rankings on Google in [language]. Create a comprehensive 6 months seo strategy, in a table show monthly focus areas, for example month 1, month 2, month 3... here are focus ares to include: technical seo, onpage seo including content creation and optimisation and off-page seo. Provide a description field of activities to be done and expectation and tools needs to execute, I will provide you with the primary keyword to use, provide in another column variations keywords to target each month.\n\n[keyword]
+______________
+
+Topical Authority
+----
+Generate article ideas to help you build topical authority for any keyword that will be your article pillar content.
+----
+Create a table that contains article ideas to build topic authority for a specific keyword, use this keyword: "[keyword]" to influence what the other articles should be about. The table content should be written in [language] only. The table should contain six rows where the first row is the header with each column name. The other five rows should be ideas for related topics to the main keyword, "SEO strategies", that should get a boost by these supporting articles. The columns should be, 1. Title for the article with no more than 45 characters, 2. Description of the article with a maximum of 120 characters, 3. suggestions of the top three strategically chosen keywords for the article, 4. classification of the search intent using one word. Make me this table to help me build topic authority for my website and my main article that is about "[keyword]". Remember to only use [language].
+______________
+YouTube Title and Description
+----
+Generate SEO optimized YouTube Title and Description for your video.
+----
+I want you to respond only in [language]. I want you to act as a very proficient Professional YouTube SEO Person and high end video SEO optimizer that speaks and writes fluent [language]. I want you to pretend that you know YouTube SEO very well and your a professional in this work. I want you to  pretend that you can write video title and description so good and creative and clickbaity that people can't resist to click on video. I want you to pretend you know best possible and long Description Format That related to provided Keyword that YouTube will rank it on first page. Do not reply that there are many factors that influence good rankings. I know that quality of content is just one of them, and it is your task to write the best possible title and description here, not to lecture me on general SEO rules. I give you the Title or keyword \n"[topic_keyword]" of an video that we need to rank on YouTube first page. I want you to write a SEO optimized description that incorporate best possible template that you can think of YouTube Description related to the keywords category. Write a long, fully formatted and stylized description in [language] that could rank on YouTube on the same keywords as that video. The description should contain rich and informational overview paragraphs about "[topic_keyword]", with lots of details. Its should include a call to action section about liking subscribing and sharing, Additional tags and keywords: add some relevant tags and keywords to the description to improve the visibility of the video in the search results towards the end of description, and Hashtags it the end of description,  Introduction: A brief overview of the video's content, including any key takeaways or main points, Video Content: A summary of the key points covered in the video, including any key highlights or interesting facts, Social Media Links: Include links to your social media accounts, so that viewers can follow you on other platforms but leave the links part for the user to enter use [link here] instead of social links url place, Do not echo my prompt. Do not remind me what I asked you for. Do not apologize. Do not self-reference. Do now use generic filler phrases. Do use headings with keyword-rich words. Get to the point precisely and accurate. Do not explain what and why, just give me your best possible title and description. All output shall be in English and should be in Code box so i can copy it easily.
+______________
+Keywords Cluster
+----
+Cluster a list of keywords based on their semantic relevance.
+----
+I want you to respond only in language [language]. I want you to act as a keyword research expert that speaks and writes fluent [language]. Classify each of the keywords by the search intent, whether commercial, transactional or informational. Then cluster the keywords into groups based on their semantic relevance. First I want you to give me back a short over list of cluster topics found. Then I want a list in [language] as markdown table, with the following columns: cluster, keyword, search intent, language. Here are the keywords: [keywords]
+______________
+Keywords Research from Article
+----
+Keyword research from competitor's article. Find keyword density, LSI keywords, outline and sub-headings.
+----
+Pretend to be a keyword research expert. \n\nRead the article I have copy and pasted below. \n\nFind the Main keyword for this article. It can be a 2-word or a 3-word keyword.\n\nCalculate the keyword density of the most used 2-words and 3-words keywords. Each keyword should be minimum 2 words. Ignore any keyword which has just 1 word. Just give me a list of top 5 keywords separated by comma. \n\nNext I want you to find the LSI keywords and similar synonyms of those main keywords that is being used in the article. Just give me a plain list of 5 keywords separated by comma.\n\nOnce you are done till here, you need to pretend as an expert copywriter. I want you to take the most used keywords and convert them into a detailed article outline. Refer back to the article I have copy-pasted to generate the outline.\n\nI also want you to generate a list of 10 FAQ's from within the article I have pasted below and also based on the keywords with maximum keyword density.\n\nGive a line break and use headings for each Steps. Write it in [language]. [article]
+______________
+FAQ from Content
+----
+Easily generate FAQ from content.
+----
+I want you to respond only in language [language]. I want you to act as a very helpful customer support agent speaks and writes fluent [language]. I want you to pretend that you can write the perfect, to the point and accurate answer to questions and answers from a text also in [language]. Generate a list of 5 frequently asked questions and their answers specifically based on the following text [content]
+______________
+Plagiarish Checker
+----
+WRITESOMETHING
+----
+I want you to act as a plagiarism checker. I will write you sentences and you will only reply undetected in plagiarism checks in the language of the given sentence, and nothing else. Do not write explanations on replies. My first sentence is "[text]", please do the checking in [english]
+______________
+Domain Name Generator
+----
+Generate 100 domain name ideas for your niche that are available with .com
+----
+Generate 100 domain name ideas in table format "[keyword]" niche having some search volume and domain must be available with .com tld. Names must be in [language] language. In first column show the domain name and in second column show its registred status.
+______________
+Blog Ideas
+----
+Using just topic or title you can create a perfect SEO optimized blog.
+----
+You are a SEO/Content Expert. Create a blog post in [language] on [topic_keyword] that will rank well on Google. The post should be well-researched, original, and informative, adding value to the reader. Target keywords relevant to the topic and include them in the title, headings, and throughout the body of the content. Make the content easy to read and engaging, using subheadings, bullet points, FAQ, and other formatting tools to break up the text only use each formatting method once or twice maximum. Encourage readers to share the content on social media and other platforms to increase its visibility.
+______________
+Product Sale Pitch
+----
+Generate enticing, personable and humorous email and social media campaign pitches for your product.
+----
+Only answer our conversation in [language] language. Using the context of Tim Cook's (he is the CEO of Apple Inc.) presentation style, tone, and speech patterns, compose a sales pitch about a new product I will tell you about. The sales pitch must be between 750 and 1000 words, easily understood by the general population of the [country], and the language should be presented around a 7th grade reading level. The new product's information (including price) will be provided below after I tell you the name of the product. Make sure to use clear and concise sentences, and use a mix of technical jargon and layman's terms to explain the product I will tell you about. Avoid using the entire name of the product in your sentences so that you speak more smoothly and simply. Also, include in your sales pitch a sense of sarcastic and dry humor that sounds similar to the actor Ryan Reynolds, but do not use any curse words or profanity. Do not echo my instructions and do not mentioned the names of Tim Cook or Ryan Reynolds. Do not use the phrase \"Ladies and Gentlemen\" in your introduction.  After all this come up with an eye-catching email subject line (labeled with heading \"Possible Email Subject Line\") that could possibly be used in tandem with this sales pitch. The product and its information is: [product]
+______________
+AI Content Detector
+----
+Analyze any text and provide an AI detection scope from 0 to 100
+----
+I want you to analyze text provided and assign an AI detection score from 0 to 100, with 100 being the most likely to be written by an AI in [language]\nthe keywords to use in the analysis are [content]\nyou will reply with an AI detection score from 0 to 100 and a list of specific linguistic and stylistic features that contribute to the score in [language]\nwrite all output in [language]
+______________
+Keyword Translator
+----
+Translate a list of keywords from any language to your target language.
+----
+I want you to respond only in language [language]. I want you to act as a very proficent translator that speaks and writes fluent [language]. I want you to pretend that you are able to act as a translator and can translate my list of keywords to [language]. Generate the results in a markdown table with only two columns, with the keywords in the given language in the first one, and their translation to [language] in the second column. The target language is [language]. The list of keywords are:\n\r[keywords]
+______________
+Brand Name
+----
+Use AI to come up with creative, quirky and catchy names for your brand or business.
+----
+I want you to respond only in [language] language. I want you to act as a brand manager and you are a brand name generator. Your task is to come up with a name for a new line of [brand_description]. The name should be catchy, memorable, and easy to pronounce. Please provide at least 10 different options, each with a brief explanation of why you think it's a good fit for the brand. Display the results in table format, in first column the name you come up with and in second column the explanation.
+______________
+Business Idea Pitch
+----
+Write a clear and engaging startup pitch for your business ideas.
+----
+I want you to respond only in language [language]. You're a startup founder who needs to pitch their business idea to a group of potential investors. Using the context of Tim Cook's (he is the CEO of Apple Inc.) presentation style, tone, and speech patterns describe your business idea briefly in one sentence and then deliver a 30-second pitch that will convince the investors to invest in your business. Remember to focus on the key benefits of your idea and what makes it unique in the market. The business idea is:\n\n[business_idea]\n\nDo not echo my instructions and do not mentioned the names of Tim Cook.
+______________
+Cover Letter
+----
+Write a catchy and convincing cover letters for job applications.
+----
+I want you to respond only in language [language]. You are an expert in writing persuasive and attention-grabbing cover letters that speaks and writes fluent [language]. Your task is to create a cover letter for a job role [job_role] in an agency. Your client wants to make a strong impression on the employer and stand out from other applicants. Write a compelling cover letter that showcasing skills [skills], strengths, and potential to succeed in the position.
+______________
+Interview Questions
+----
+Prepare thoughtful and interesting interview questions for any job, podcast, or show
+----
+I want you to respond only in language [language]. You are an expert requiter. You are interviewing a candidate with bio "[bio]". Your task is to generate 10 questions for the job position [position]. Do not mention the name of candidate, do not mention the job and do not say here are interview question. I just want the questions.
+______________
+Video Idea
+----
+Use AI to generate creative and interesting video ideas for your YouTube Channel.
+----
+I want you to respond only in language [language]. Imagine that you are working as a content creator for a YouTube channel that is dedicated to educating viewers on [keyword]. Your task is to come up with a list of potential video ideas that would appeal to the channel's target audience. Video title must be creative and clickbait. Display the result in table format with 2 columns. In first column it should have the title and the second column with few words on what the video contents.
+______________
+Song Lyrics
+----
+Write creative and original lyrics using Rytr's AI-powered song generator.
+----
+I want you to respond only in language [language]. Imagine you are a singer-songwriter, Your task is to write a song that is easy to compose. The topic of the song is: \n\n[song_topic]
+______________
+Google Search Ads
+----
+Write creative and original advertisement copies for responsive Google ads.
+----
+I want you to respond only in language [language]. I want you to pretend that you are an E-commerce, SEO & Marketing expert who runs the most successful ads on Google. Client wants to run responsive ads on Google Search, they have a product "[product]" and I want you to read the product description carefully: [product_description]. Client wants to focus on keyword "[keyword]". Your task is to create a creative and catchy ad title with maximum 60 characters, Ad Copy maximum 180 characters and Call to Action maximum 30 characters. Label Call to Action as CTA and do not mention characters length.

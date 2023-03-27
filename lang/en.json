@@ -1,0 +1,18 @@
+{
+    "Home": "Home",
+    "home": "Home",
+    "Document": "Document",
+    "Widgets": "Widgets",
+    "Profile": "Profile",
+    "Admin": "Admin",
+    "Contact": "Contact",
+    "HomepageWriting": [
+        "Story plots",
+        "Blog Posts",
+        "Cover Letters",
+        "Interview Questions",
+        "Lessons",
+        "Product Descriptions",
+        "Everything, Anytime"
+    ]
+}

@@ -1,0 +1,165 @@
+.ai-app-dashboard {
+    .app-body {
+        overflow-x: hidden;
+        margin-top: 68px;
+        background: var(--#{$prefix}secondary);
+
+        [theme-mode='dark'] & {
+            background: var(--#{$prefix}primary-dark);
+        }
+
+        .sidebar {
+            background-image: url(../images/ai-dash.svg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-color: var(--#{$prefix}white);
+            position: fixed;
+            z-index: 1;
+            width: 420px;
+            height: 100vh;
+            height: calc(100vh - 69px);
+            padding: 50px 30px 0;
+            overflow-x: auto;
+            border-right: 1px solid var(--#{$prefix}border-color);
+
+            [dir="rtl"] & {
+                border-right: 0;
+                border-left: 1px solid var(--#{$prefix}border-color);
+            }
+
+            [theme-mode='dark'] & {
+                border-color: var(--#{$prefix}dark-border-color);
+            }
+
+            @include media-breakpoint-down(lg) {
+                width: 320px;
+            }
+
+            [theme-mode='dark'] & {
+                background: var(--#{$prefix}secondary-dark);
+            }
+
+            @include media-breakpoint-down(md) {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+        }
+
+        .main {
+            flex: 1;
+            min-width: 0;
+            background: var(--#{$prefix}bg-body);
+            height: calc(100vh - 110px);
+            margin-left: 420px;
+            padding: 15px 30px 0 30px;
+
+            [dir="rtl"] & {
+                margin-left: 0;
+                margin-right: 420px;
+            }
+
+            @include media-breakpoint-down(lg) {
+                margin-left: 320px;
+
+                [dir="rtl"] & {
+                    margin-left: 0;
+                    margin-right: 320px;
+                }
+            }
+
+            @include media-breakpoint-down(md) {
+                margin-left: 0;
+                width: 100%;
+                position: relative;
+            }
+
+            [theme-mode='dark'] & {
+                background-color: var(--#{$prefix}primary-dark);
+            }
+
+            .dashboard-page-header {
+                display: flow-root;
+                margin-bottom: 15px;
+
+                .action {
+                    a {
+                        line-height: 33px;
+                    }
+                }
+            }
+
+            .dashboard-contant {
+                background-color: var(--#{$prefix}white);
+                padding: 15px;
+
+                a {
+                    color: var(--#{$prefix}black);
+                    text-decoration: none;
+
+                    [theme-mode='dark'] & {
+                        color: var(--#{$prefix}white);
+                    }
+                }
+
+                [theme-mode='dark'] & {
+                    background: var(--#{$prefix}secondary-dark);
+                    border-color: var(--#{$prefix}dark-border-color);
+                    color: var(--#{$prefix}white);
+                }
+
+                textarea {
+                    background: transparent !important;
+                    color: var(--#{$prefix}black);
+                    padding: 30px;
+                    border: 0;
+
+                    [theme-mode='dark'] & {
+                        background: var(--#{$prefix}secondary-dark);
+                        color: var(--#{$prefix}white);
+                    }
+
+                    @include media-breakpoint-down(sm) {
+                        padding: 0
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ai-app-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--#{$prefix}text-color);
+    background: var(--#{$prefix}white);
+    border-top: 1px solid var(--#{$prefix}border-color);
+    margin-left: 420px;
+
+    [dir="rtl"] & {
+        margin-left: 0;
+        margin-right: 420px;
+    }
+
+    @include media-breakpoint-down(lg) {
+        margin-left: 320px;
+
+        [dir="rtl"] & {
+            margin-left: 0;
+            margin-right: 320px;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        margin: 0;
+    }
+
+    [theme-mode='dark'] & {
+        color: var(--#{$prefix}text-light);
+        background: var(--#{$prefix}primary-dark);
+        border-color: var(--#{$prefix}dark-border-color);
+    }
+}

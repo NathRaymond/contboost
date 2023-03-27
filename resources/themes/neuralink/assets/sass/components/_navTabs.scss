@@ -1,0 +1,31 @@
+.tabbar {
+    .nav-tabs {
+        margin-bottom: 30px;
+        [theme-mode="dark"] & {
+            border-color: $secondary-dark;
+        }
+
+        .nav-item {
+            button {
+                background: transparent;
+                border: none;
+                color: $text-light;
+
+                &.active {
+                    background: transparent;
+                    border-bottom: 3px solid var(--#{$prefix}primary);
+
+                    [theme-mode="dark"] & {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+         
+        }
+    }
+}

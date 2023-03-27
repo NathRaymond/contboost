@@ -1,0 +1,64 @@
+.custom-radio-checkbox {
+    .radio-checkbox-wrapper {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+
+    span {
+        i {
+            color: var(--#{$prefix}icon-color);
+            font-size: 28px;
+            margin: 0 auto;
+            margin-right: 10px;
+        }
+
+        span {
+            top: -5px;
+            position: inherit;
+        }
+    }
+
+    .radio-checkbox-input {
+        opacity: 0;
+        visibility: hidden;
+        margin: 0;
+        position: absolute;
+
+        &:checked+.radio-checkbox-tile {
+            border: 1px solid var(--#{$prefix}primary);
+
+            span {
+                border-color: var(--#{$prefix}border-color);
+                color: var(--#{$prefix}primary);
+            }
+
+            i {
+                color: var(--#{$prefix}primary);
+            }
+
+            &::before {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    }
+
+    .radio-checkbox-tile {
+        display: block;
+        padding: 10px 15px;
+        gap: 0.2rem;
+        border-radius: 5px;
+        border: 1px solid var(--#{$prefix}border-color);
+        transition: 0.1s ease;
+        cursor: pointer;
+        position: relative;
+
+        @include media-breakpoint-down(xl) {
+            width: 100% !important;
+        }
+
+        &:hover {
+            border-color: var(--#{$prefix}border-color);
+        }
+    }
+}

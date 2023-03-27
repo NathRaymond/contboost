@@ -1,0 +1,46 @@
+.list-check {
+    position: relative;
+    list-style: none;
+    line-height: 2rem;
+    color: $text-light;
+
+    .check,
+    .cross {
+        position: relative;
+
+        &:before {
+            content: "";
+            display: block;
+            height: 16px;
+            width: 16px;
+            top: 8px;
+            position: absolute;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'amazing-neo';
+
+            [dir="ltr"] & {
+                left: -22px;
+            }
+
+            [dir="rtl"] & {
+                right: -22px;
+            }
+        }
+    }
+
+    .check {
+        &:before {
+            content: "\f11c";
+            color: var(--#{$prefix}success);
+        }
+    }
+
+    .cross {
+        &:before {
+            content: "\f16b";
+            color: var(--#{$prefix}danger);
+        }
+    }
+}
